@@ -12,7 +12,7 @@ There are three main objectives of this expert system. Firstly, it aims to provi
 
 The expert system encompasses six major expertise areas in the automobile business, battery and electrical systems, fuel delivery systems, starter systems, cooling systems, brake systems, engine performance issues, transmission issues, and exhaust systems. The knowledge base contains twenty-six separate faulty types with associated symptom patterns and recommended corrective actions. The system recognizes and processes fifty-eight total distinct symptoms that users may observe about their vehicle.
 
-3. Knowledge Representation Design
+2. Knowledge Representation Design
 
 2.1 Knowledge Base Structure
 
@@ -58,7 +58,7 @@ The system acknowledges that automotive issues are frequently characterized by s
 
 To illustrate how the inference engine works, we will assume that the symptoms entered by the user are engine_not_starting, no_electrical_power, and dim_headlights. The engine will then search all of the faults that have been established in the knowledge base. For dead battery fault, it needs symptoms engine_not_starting, no_electrical_power, dim_headlights, and clicking_sound_when_starting. In this case, assuming it meets three out of four symptoms needed for this fault, it will provide a certainty of seventy-five percent. For corroded battery terminals fault, it needs symptoms engine_not_starting, dim_headlights, and electrical_flickering. In this case, assuming it meets two out of three symptoms needed for this fault, it will provide a certainty of sixty-seven percent. Both meet the diagnosis level and would be presented to the user; first would be dead battery fault because it had greater certainty.
 
-5. Sample Runs and System Demonstration
+4. Sample Runs and System Demonstration
 
 4.1 System Startup and Main Menu
 
